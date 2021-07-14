@@ -1,0 +1,1637 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)https://mixkit.co/free-sound-effects/discover/yummy/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">.turbo-progress-bar {
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: #0076ff;
+  z-index: 9999;
+  transition:
+    width 300ms ease-out,
+    opacity 150ms 150ms ease-in;
+  transform: translate3d(0, 0, 0);
+}
+</style>
+  <title>Yummy Sound Effects | Mixkit</title>
+  <meta name="viewport" content="width=device-width">
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com/">
+  <link rel="preconnect" href="https://mixkit.imgix.net/">
+    <link rel="preconnect" href="https://mixkit.co/">
+  <link rel="preconnect" href="https://envato-shoebox-0.imgix.net/">
+    <link rel="preconnect" href="https://cdn.rollbar.com/">
+    <link rel="preconnect" href="https://www.googletagmanager.com/">
+    <link rel="preconnect" href="https://www.google-analytics.com/">
+    <link rel="preload" href="./energy_files/mixkit-logo--black-a90b84b6ac6ad0fbd410b16466b4cb252d399b5caaf03603f36c52ffc648455c.svg" as="image">
+  
+
+  <link rel="apple-touch-icon" sizes="72x72" href="https://mixkit.co/build/favicons/apple-icon-72x72-65d8de4120b737fcccf4be0dd5e3604c7d0aa062eeb594876e4aac1f3aaf22a6.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://mixkit.co/build/favicons/apple-icon-180x180-bd3d5e368063b793b955fa228a1d9311b54a29ac871f53c2e0c69e81d5fa0d48.png">
+  <link rel="icon" type="image/png" href="https://mixkit.co/build/favicons/favicon-96x96-b47a57aea9303a5f92e644e78aa343575b21f12b38d469be00fdc5acd983684d.png">
+
+    <script type="text/javascript" async="" src="./energy_files/analytics.js.download"></script><script>
+      var _rollbarConfig = {
+        accessToken: "d2fdc4fdd90941689b8ca88fd4286319",
+        captureUncaught: true,
+        captureUnhandledRejections: true,
+        payload: {
+          environment: "production"
+        },
+        ignoredMessages: [
+          "The operation was aborted",
+          /The play\(\) request was interrupted/,
+          "The user aborted a request",
+          "Script error",
+          "The provided double value is non-finite",
+          "Value being assigned is not a finite floating-point value",
+        ],
+        checkIgnore: function() {
+          var browserSupportsAbortController = typeof AbortController !== "undefined"
+          var browserSupportsCss = !!((window.CSS && window.CSS.supports) || window.supportsCSS || false);
+          var browserSupportsCustomElements = !!(window.customElements);
+          var isIE = navigator.userAgent.indexOf("MSIE ") > -1 || navigator.userAgent.indexOf("Trident/") > -1;
+          if (browserSupportsAbortController && browserSupportsCss && browserSupportsCustomElements && !isIE) {
+            return false;
+          }
+          return true;
+        }
+      };
+      // Rollbar Snippet
+      !function(r){var e={};function o(n){if(e[n])return e[n].exports;var t=e[n]={i:n,l:!1,exports:{}};return r[n].call(t.exports,t,t.exports,o),t.l=!0,t.exports}o.m=r,o.c=e,o.d=function(r,e,n){o.o(r,e)||Object.defineProperty(r,e,{enumerable:!0,get:n})},o.r=function(r){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(r,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(r,"__esModule",{value:!0})},o.t=function(r,e){if(1&e&&(r=o(r)),8&e)return r;if(4&e&&"object"==typeof r&&r&&r.__esModule)return r;var n=Object.create(null);if(o.r(n),Object.defineProperty(n,"default",{enumerable:!0,value:r}),2&e&&"string"!=typeof r)for(var t in r)o.d(n,t,function(e){return r[e]}.bind(null,t));return n},o.n=function(r){var e=r&&r.__esModule?function(){return r.default}:function(){return r};return o.d(e,"a",e),e},o.o=function(r,e){return Object.prototype.hasOwnProperty.call(r,e)},o.p="",o(o.s=0)}([function(r,e,o){"use strict";var n=o(1),t=o(5);_rollbarConfig=_rollbarConfig||{},_rollbarConfig.rollbarJsUrl=_rollbarConfig.rollbarJsUrl||"https://cdn.rollbar.com/rollbarjs/refs/tags/v2.19.4/rollbar.min.js",_rollbarConfig.async=void 0===_rollbarConfig.async||_rollbarConfig.async;var a=n.setupShim(window,_rollbarConfig),l=t(_rollbarConfig);window.rollbar=n.Rollbar,a.loadFull(window,document,!_rollbarConfig.async,_rollbarConfig,l)},function(r,e,o){"use strict";var n=o(2),t=o(3);function a(r){return function(){try{return r.apply(this,arguments)}catch(r){try{console.error("[Rollbar]: Internal error",r)}catch(r){}}}}var l=0;function i(r,e){this.options=r,this._rollbarOldOnError=null;var o=l++;this.shimId=function(){return o},"undefined"!=typeof window&&window._rollbarShims&&(window._rollbarShims[o]={handler:e,messages:[]})}var s=o(4),d=function(r,e){return new i(r,e)},c=function(r){return new s(d,r)};function u(r){return a((function(){var e=this,o=Array.prototype.slice.call(arguments,0),n={shim:e,method:r,args:o,ts:new Date};window._rollbarShims[this.shimId()].messages.push(n)}))}i.prototype.loadFull=function(r,e,o,n,t){var l=!1,i=e.createElement("script"),s=e.getElementsByTagName("script")[0],d=s.parentNode;i.crossOrigin="",i.src=n.rollbarJsUrl,o||(i.async=!0),i.onload=i.onreadystatechange=a((function(){if(!(l||this.readyState&&"loaded"!==this.readyState&&"complete"!==this.readyState)){i.onload=i.onreadystatechange=null;try{d.removeChild(i)}catch(r){}l=!0,function(){var e;if(void 0===r._rollbarDidLoad){e=new Error("rollbar.js did not load");for(var o,n,a,l,i=0;o=r._rollbarShims[i++];)for(o=o.messages||[];n=o.shift();)for(a=n.args||[],i=0;i<a.length;++i)if("function"==typeof(l=a[i])){l(e);break}}"function"==typeof t&&t(e)}()}})),d.insertBefore(i,s)},i.prototype.wrap=function(r,e,o){try{var n;if(n="function"==typeof e?e:function(){return e||{}},"function"!=typeof r)return r;if(r._isWrap)return r;if(!r._rollbar_wrapped&&(r._rollbar_wrapped=function(){o&&"function"==typeof o&&o.apply(this,arguments);try{return r.apply(this,arguments)}catch(o){var e=o;throw e&&("string"==typeof e&&(e=new String(e)),e._rollbarContext=n()||{},e._rollbarContext._wrappedSource=r.toString(),window._rollbarWrappedError=e),e}},r._rollbar_wrapped._isWrap=!0,r.hasOwnProperty))for(var t in r)r.hasOwnProperty(t)&&(r._rollbar_wrapped[t]=r[t]);return r._rollbar_wrapped}catch(e){return r}};for(var p="log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleAnonymousErrors,handleUnhandledRejection,captureEvent,captureDomContentLoaded,captureLoad".split(","),f=0;f<p.length;++f)i.prototype[p[f]]=u(p[f]);r.exports={setupShim:function(r,e){if(r){var o=e.globalAlias||"Rollbar";if("object"==typeof r[o])return r[o];r._rollbarShims={},r._rollbarWrappedError=null;var l=new c(e);return a((function(){e.captureUncaught&&(l._rollbarOldOnError=r.onerror,n.captureUncaughtExceptions(r,l,!0),e.wrapGlobalEventHandlers&&t(r,l,!0)),e.captureUnhandledRejections&&n.captureUnhandledRejections(r,l,!0);var a=e.autoInstrument;return!1!==e.enabled&&(void 0===a||!0===a||"object"==typeof a&&a.network)&&r.addEventListener&&(r.addEventListener("load",l.captureLoad.bind(l)),r.addEventListener("DOMContentLoaded",l.captureDomContentLoaded.bind(l))),r[o]=l,l}))()}},Rollbar:c}},function(r,e,o){"use strict";function n(r,e,o,n){r._rollbarWrappedError&&(n[4]||(n[4]=r._rollbarWrappedError),n[5]||(n[5]=r._rollbarWrappedError._rollbarContext),r._rollbarWrappedError=null);var t=e.handleUncaughtException.apply(e,n);o&&o.apply(r,n),"anonymous"===t&&(e.anonymousErrorsPending+=1)}r.exports={captureUncaughtExceptions:function(r,e,o){if(r){var t;if("function"==typeof e._rollbarOldOnError)t=e._rollbarOldOnError;else if(r.onerror){for(t=r.onerror;t._rollbarOldOnError;)t=t._rollbarOldOnError;e._rollbarOldOnError=t}e.handleAnonymousErrors();var a=function(){var o=Array.prototype.slice.call(arguments,0);n(r,e,t,o)};o&&(a._rollbarOldOnError=t),r.onerror=a}},captureUnhandledRejections:function(r,e,o){if(r){"function"==typeof r._rollbarURH&&r._rollbarURH.belongsToShim&&r.removeEventListener("unhandledrejection",r._rollbarURH);var n=function(r){var o,n,t;try{o=r.reason}catch(r){o=void 0}try{n=r.promise}catch(r){n="[unhandledrejection] error getting `promise` from event"}try{t=r.detail,!o&&t&&(o=t.reason,n=t.promise)}catch(r){}o||(o="[unhandledrejection] error getting `reason` from event"),e&&e.handleUnhandledRejection&&e.handleUnhandledRejection(o,n)};n.belongsToShim=o,r._rollbarURH=n,r.addEventListener("unhandledrejection",n)}}}},function(r,e,o){"use strict";function n(r,e,o){if(e.hasOwnProperty&&e.hasOwnProperty("addEventListener")){for(var n=e.addEventListener;n._rollbarOldAdd&&n.belongsToShim;)n=n._rollbarOldAdd;var t=function(e,o,t){n.call(this,e,r.wrap(o),t)};t._rollbarOldAdd=n,t.belongsToShim=o,e.addEventListener=t;for(var a=e.removeEventListener;a._rollbarOldRemove&&a.belongsToShim;)a=a._rollbarOldRemove;var l=function(r,e,o){a.call(this,r,e&&e._rollbar_wrapped||e,o)};l._rollbarOldRemove=a,l.belongsToShim=o,e.removeEventListener=l}}r.exports=function(r,e,o){if(r){var t,a,l="EventTarget,Window,Node,ApplicationCache,AudioTrackList,ChannelMergerNode,CryptoOperation,EventSource,FileReader,HTMLUnknownElement,IDBDatabase,IDBRequest,IDBTransaction,KeyOperation,MediaController,MessagePort,ModalWindow,Notification,SVGElementInstance,Screen,TextTrack,TextTrackCue,TextTrackList,WebSocket,WebSocketWorker,Worker,XMLHttpRequest,XMLHttpRequestEventTarget,XMLHttpRequestUpload".split(",");for(t=0;t<l.length;++t)r[a=l[t]]&&r[a].prototype&&n(e,r[a].prototype,o)}}},function(r,e,o){"use strict";function n(r,e){this.impl=r(e,this),this.options=e,function(r){for(var e=function(r){return function(){var e=Array.prototype.slice.call(arguments,0);if(this.impl[r])return this.impl[r].apply(this.impl,e)}},o="log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleAnonymousErrors,handleUnhandledRejection,_createItem,wrap,loadFull,shimId,captureEvent,captureDomContentLoaded,captureLoad".split(","),n=0;n<o.length;n++)r[o[n]]=e(o[n])}(n.prototype)}n.prototype._swapAndProcessMessages=function(r,e){var o,n,t;for(this.impl=r(this.options);o=e.shift();)n=o.method,t=o.args,this[n]&&"function"==typeof this[n]&&("captureDomContentLoaded"===n||"captureLoad"===n?this[n].apply(this,[t[0],o.ts]):this[n].apply(this,t));return this},r.exports=n},function(r,e,o){"use strict";r.exports=function(r){return function(e){if(!e&&!window._rollbarInitialized){for(var o,n,t=(r=r||{}).globalAlias||"Rollbar",a=window.rollbar,l=function(r){return new a(r)},i=0;o=window._rollbarShims[i++];)n||(n=o.handler),o.handler._swapAndProcessMessages(l,o.messages);window[t]=n,window._rollbarInitialized=!0}}}}]);
+      // End Rollbar Snippet
+    </script>
+
+    <script async="" src="./energy_files/js"></script>
+    <script data-controller="google-analytics" data-analytics-processed="true" data-google-analytics-tracking-id-value="UA-11834194-84">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'UA-11834194-84', {"send_page_view":false});
+    </script>
+
+  <link href="./energy_files/css2" rel="stylesheet">
+  <link rel="stylesheet" media="all" href="./energy_files/application-60172f4286a17f4459ca0564250f41c49fb04a66512c24c8410ed179dcc92a03.css" data-turbo-track="reload">
+  <script src="./energy_files/application-c798faa3d9ca175565f3.js.download" crossorigin="anonymous" data-turbo-track="reload"></script>
+
+  <meta name="description" content="Download Free Stock Video Footage, Stock Music &amp; Premiere Pro Templates for your next video editing project. All assets can be downloaded for free!.">
+    <meta name="robots" content="noindex">
+    <link rel="canonical" href="https://mixkit.co/free-sound-effects/discover/yummy/">
+  <meta property="og:title" content="Yummy Sound Effects | Mixkit">
+  <meta property="og:description" content="Download Free Stock Video Footage, Stock Music &amp; Premiere Pro Templates for your next video editing project. All assets can be downloaded for free!.">
+    <meta property="og:url" content="https://mixkit.co/free-sound-effects/discover/yummy/">
+  <meta property="og:type" content="website">
+    <meta property="og:image" content="https://mixkit.imgix.net/static/OG-meta/sound-effects.png?q=80&amp;auto=format%2Ccompress">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:domain" content="mixkit.co">
+    <meta property="twitter:url" content="https://mixkit.co/free-sound-effects/discover/yummy/">
+  <meta name="twitter:title" content="Yummy Sound Effects | Mixkit">
+  <meta name="twitter:description" content="Download Free Stock Video Footage, Stock Music &amp; Premiere Pro Templates for your next video editing project. All assets can be downloaded for free!.">
+    <meta name="twitter:image" content="https://mixkit.imgix.net/static/OG-meta/sound-effects.png?q=80&amp;auto=format%2Ccompress">
+
+  
+</head>
+
+<body>
+<div class="global-header" data-controller="global--header" id="global-header">
+  <a href="https://mixkit.co/" class="global-header__logo-wrapper" aria-label="Mixkit - Free assets for your next video project">
+    <svg width="206" height="48" viewBox="0 0 206 48" fill="none" xmlns="http://www.w3.org/2000/svg" class="global-header__logo">
+      <path class="global-header__logo-brand" d="M96.802 13.89c-.61-1.155-1.624-2.11-3.004-2.866-1.38-.756-3.044-1.114-4.952-1.114-3.207 0-5.886 1.313-7.996 3.98-1.584-2.667-4.222-3.98-7.916-3.98-2.922 0-5.195.995-6.9 2.985v-2.309h-7.55v25.949h7.55v-13.93c0-.596.04-1.114.122-1.671a9.82 9.82 0 01.527-1.91c.284-.757.73-1.354 1.42-1.791.65-.438 1.503-.677 2.477-.677 2.8 0 4.222 1.632 4.222 4.895v15.124h7.55V22.247c.283-3.82 1.785-5.69 4.505-5.69 1.136 0 2.03.318 2.679.954.65.637 1.096 1.274 1.258 1.91.163.637.244 1.314.244 2.03v15.124h7.55V19.859c0-.875-.122-1.79-.406-2.746a15.89 15.89 0 00-1.38-3.223zM107.924 0c-1.218 0-2.233.438-3.045 1.274-.852.835-1.258 1.83-1.258 2.984 0 1.155.406 2.15 1.258 2.985.853.836 1.868 1.274 3.045 1.274 1.217 0 2.232-.438 3.044-1.274.852-.835 1.258-1.83 1.258-2.985 0-1.154-.406-2.149-1.258-2.984C110.156.438 109.141 0 107.924 0zM111.658 10.626h-7.55v25.949h7.55V10.626zM178.917 38.724c-1.217 0-2.232.438-3.044 1.274-.852.835-1.258 1.83-1.258 2.984 0 1.155.406 2.15 1.258 2.985.852.836 1.867 1.274 3.044 1.274 1.218 0 2.233-.438 3.045-1.274.852-.835 1.258-1.83 1.258-2.985 0-1.154-.406-2.149-1.258-2.984-.853-.876-1.868-1.274-3.045-1.274zM182.692 10.626h-7.55v25.949h7.55V10.626zM133.618 10.626l-4.952 7.204-4.912-7.204h-8.443l9.011 12.895-9.011 13.054h8.443l4.912-7.244 4.952 7.244h8.443L133.09 23.52l8.971-12.895h-8.443zM170.19 10.626h-9.092l-7.834 10.626V10.626h-7.55v25.949h7.55V25.51l8.93 11.064h9.66l-10.716-13.213 9.052-12.736zM199.375 10.626c0-4.1-3.369-7.402-7.55-7.402v7.402h-5.195v6.607h5.195v9.233c0 1.87.284 3.502.893 4.895.609 1.393 1.259 2.388 1.949 3.025.73.637 1.623 1.114 2.638 1.512 1.055.358 1.786.557 2.273.597.487.04.974.08 1.543.08 1.664 0 3.287-.08 4.83-.239v-6.248c-.771.08-1.461.159-2.151.199-.853 0-1.543-.12-2.192-.358-.609-.24-1.056-.518-1.34-.836-.284-.319-.487-.637-.609-1.035-.162-.398-.243-.677-.243-.836-.041-.159-.041-.278-.041-.358v-9.631h6.616v-6.607h-6.616z"></path>
+      <path d="M15.892 36.742a34.619 34.619 0 019.148-15.426 35.196 35.196 0 00-11.473-7.618C9.268 11.931 4.657 10.413 0 10.418v26.323h15.892z" fill="#58C8D1"></path>
+      <path d="M34.058 36.742h15.845V10.419c-9.32-.011-18.263 4.412-24.863 10.898a34.602 34.602 0 019.018 15.425z" fill="#F3556F"></path>
+      <path d="M15.892 36.742h18.166a34.603 34.603 0 00-9.018-15.426 34.619 34.619 0 00-9.148 15.426z" fill="#383B76"></path>
+    </svg>
+  </a>
+  <button class="global-header__menu-toggle" data-action="click-&gt;global--header#toggleMobileMenu" aria-label="Toggle Navigation">
+    <span class="global-header__menu-toggle-line"></span>
+  </button>
+  <div class="global-header__search">
+    <form action="https://mixkit.co/search/" method="get" class="search-form search-form--header" data-controller="search--form" data-action="submit-&gt;search--form#search" data-search--form-item-type-value="sfx" data-search--form-autocomplete-value="{&quot;sfx&quot;:&quot;/free-sound-effects/search/autocomplete/&quot;,&quot;music&quot;:&quot;/free-stock-music/search/autocomplete/&quot;}" data-search--form-show-clear-button-value="true">
+  <div class="search-form__item-type-wrapper">
+    <div class="search-form__item-type-label" data-search--form-target="headerLabel">Sound Effects</div>
+    <div class="search-form__item-type-options" data-search--form-target="headerOptions">
+      <span class="search-form__item-type-option" data-action="click-&gt;search--form#itemTypeChange" data-type="video">Videos</span>
+      <span class="search-form__item-type-option" data-action="click-&gt;search--form#itemTypeChange" data-type="music">Music</span>
+      <span class="search-form__item-type-option search-form__item-type-option--current" data-action="click-&gt;search--form#itemTypeChange" data-type="sfx">Sound Effects</span>
+      <span class="search-form__item-type-option" data-action="click-&gt;search--form#itemTypeChange" data-type="video_templates">Templates</span>
+      <span class="search-form__item-type-option" data-action="click-&gt;search--form#itemTypeChange" data-type="photos">Photos</span>
+    </div>
+  </div>
+  <div class="search-form__input-wrapper">
+    <input type="search" name="s" value="Yummy" placeholder="Search" class="search-form__input" data-search--form-target="input" aria-label="Enter Search Text" data-action="keyup-&gt;search--form#handleAutocomplete" autocomplete="off">
+    <button type="submit" class="search-form__button-submit" aria-label="Search">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 25 26" class="search-form__submit-icon">
+        <path d="M24 24.21l-6.133-6.134M10.857 20.924c5.444 0 9.857-4.413 9.857-9.857 0-5.444-4.413-9.857-9.857-9.857C5.413 1.21 1 5.623 1 11.067c0 5.444 4.413 9.857 9.857 9.857z" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"></path>
+      </svg>
+    </button>
+    <button type="button" class="search-form__button-clear" data-action="click-&gt;search--form#clearSearchTerms">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 25 26" class="search-form__clear-icon">
+        <path d="M16.675 0H18.921V23.582H16.675z" transform="rotate(45 16.675 0)"></path>
+        <path d="M0 1.588H2.246V25.17H0z" transform="rotate(-45 0 1.588)"></path>
+      </svg>
+    </button>
+    <div class="search-form__autocomplete-results" data-search--form-target="autocompleteResults"></div>
+    <template data-search--form-target="autocompleteButton"></template>
+  </div>
+</form>
+
+  </div>
+  <nav class="global-header__navigation">
+    <a href="https://mixkit.co/free-stock-video/" class="global-header__navigation-link">Video</a>
+    <a href="https://mixkit.co/free-stock-music/" class="global-header__navigation-link">Music</a>
+    <a href="https://mixkit.co/free-sound-effects/" class="global-header__navigation-link global-header__navigation-link--current">Sound Effects</a>
+    <div class="global-header__navigation-dropdown">
+      <a href="https://mixkit.co/free-video-templates/" class="global-header__navigation-link">Templates</a>
+      <div class="global-header__navigation-dropdown-items">
+        <a href="https://mixkit.co/free-premiere-pro-templates/" class="global-header__navigation-link">Premiere Pro</a>
+        <a href="https://mixkit.co/free-after-effects-templates/" class="global-header__navigation-link">After Effects</a>
+        <a href="https://mixkit.co/free-final-cut-pro-templates/" class="global-header__navigation-link">Final Cut Pro</a>
+        <a href="https://mixkit.co/free-davinci-resolve-templates/" class="global-header__navigation-link">DaVinci Resolve</a>
+      </div>
+    </div>
+    <a href="https://www.reshot.com/?utm_source=mixkit&amp;utm_campaign=mixkit-header" rel="noopener noreferrer" target="_blank" class="global-header__navigation-link global-header__navigation-link--external">Photos</a>
+  </nav>
+</div>
+
+    <div class="global-navigation" data-controller="global--sub-navigation--sub-navigation" data-action="resize@window-&gt;global--sub-navigation--sub-navigation#layout" id="global-navigation" style="--navigation-color: #809AA4;">
+  <nav class="global-navigation__inner" data-global--sub-navigation--sub-navigation-target="nav">
+        <div class="global-navigation__link-wrapper global-navigation__link-wrapper--has-children" data-global--sub-navigation--sub-navigation-target="link" data-columns="2">
+          <a href="https://mixkit.co/free-sound-effects/transition/" class="global-navigation__link" data-action="click-&gt;global--sub-navigation--sub-navigation#openModal">
+            Transition
+          </a>
+          <div class="global-navigation__link-children-outer">
+            <div class="global-navigation__link-children-inner">
+                <a href="https://mixkit.co/free-sound-effects/blow/" class="global-navigation__link">
+                  Blow
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/cinematic/" class="global-navigation__link">
+                  Cinematic
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/glitch/" class="global-navigation__link">
+                  Glitch
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/impact/" class="global-navigation__link">
+                  Impact
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/slide/" class="global-navigation__link">
+                  Slide
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/spin/" class="global-navigation__link">
+                  Spin
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/stomp/" class="global-navigation__link">
+                  Stomp
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/sweep/" class="global-navigation__link">
+                  Sweep
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/swish/" class="global-navigation__link">
+                  Swish
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/swoosh/" class="global-navigation__link">
+                  Swoosh
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/thud/" class="global-navigation__link">
+                  Thud
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/whip/" class="global-navigation__link">
+                  Whip
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/whoosh/" class="global-navigation__link">
+                  Whoosh
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/woosh/" class="global-navigation__link">
+                  Woosh
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/zoom/" class="global-navigation__link">
+                  Zoom
+                </a>
+            </div>
+          </div>
+        </div>
+        <div class="global-navigation__link-wrapper global-navigation__link-wrapper--has-children" data-global--sub-navigation--sub-navigation-target="link" data-columns="3">
+          <a href="https://mixkit.co/free-sound-effects/nature/" class="global-navigation__link" data-action="click-&gt;global--sub-navigation--sub-navigation#openModal">
+            Nature
+          </a>
+          <div class="global-navigation__link-children-outer">
+            <div class="global-navigation__link-children-inner">
+                <a href="https://mixkit.co/free-sound-effects/ambience/" class="global-navigation__link">
+                  Ambience
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/beach/" class="global-navigation__link">
+                  Beach
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/desert/" class="global-navigation__link">
+                  Desert
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/fire/" class="global-navigation__link">
+                  Fire
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/forest/" class="global-navigation__link">
+                  Forest
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/jungle/" class="global-navigation__link">
+                  Jungle
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/morning/" class="global-navigation__link">
+                  Morning
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/mountain/" class="global-navigation__link">
+                  Mountain
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/night/" class="global-navigation__link">
+                  Night
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/rain/" class="global-navigation__link">
+                  Rain
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/rivers/" class="global-navigation__link">
+                  Rivers
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/safari/" class="global-navigation__link">
+                  Safari
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/scary-woods/" class="global-navigation__link">
+                  Scary Woods
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/sea/" class="global-navigation__link">
+                  Sea
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/storm/" class="global-navigation__link">
+                  Storm
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/swell/" class="global-navigation__link">
+                  Swell
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/thunder/" class="global-navigation__link">
+                  Thunder
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/volcano/" class="global-navigation__link">
+                  Volcano
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/water/" class="global-navigation__link">
+                  Water
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/waterfall/" class="global-navigation__link">
+                  Waterfall
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/waves/" class="global-navigation__link">
+                  Waves
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/wind/" class="global-navigation__link">
+                  Wind
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/wood/" class="global-navigation__link">
+                  Wood
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/splash/" class="global-navigation__link">
+                  Splash
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/ocean/" class="global-navigation__link">
+                  Ocean
+                </a>
+            </div>
+          </div>
+        </div>
+        <div class="global-navigation__link-wrapper global-navigation__link-wrapper--has-children" data-global--sub-navigation--sub-navigation-target="link" data-columns="3">
+          <a href="https://mixkit.co/free-sound-effects/technology/" class="global-navigation__link" data-action="click-&gt;global--sub-navigation--sub-navigation#openModal">
+            Technology
+          </a>
+          <div class="global-navigation__link-children-outer">
+            <div class="global-navigation__link-children-inner">
+                <a href="https://mixkit.co/free-sound-effects/alarm/" class="global-navigation__link">
+                  Alarm
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/alerts/" class="global-navigation__link">
+                  Alerts
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/beep/" class="global-navigation__link">
+                  Beep
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/bleep/" class="global-navigation__link">
+                  Bleep
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/buzzer/" class="global-navigation__link">
+                  Buzzer
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/camera/" class="global-navigation__link">
+                  Camera
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/click/" class="global-navigation__link">
+                  Click
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/clock/" class="global-navigation__link">
+                  Clock
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/keyboard/" class="global-navigation__link">
+                  Keyboard
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/drone/" class="global-navigation__link">
+                  Drone
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/electricity/" class="global-navigation__link">
+                  Electricity
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/error/" class="global-navigation__link">
+                  Error
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/high-tech/" class="global-navigation__link">
+                  High Tech
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/interface/" class="global-navigation__link">
+                  Interface
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/laptop/" class="global-navigation__link">
+                  Laptop
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/light/" class="global-navigation__link">
+                  Light
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/movie-projector/" class="global-navigation__link">
+                  Movie Projector
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/notification/" class="global-navigation__link">
+                  Notification
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/phone/" class="global-navigation__link">
+                  Phone
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/phone-ring/" class="global-navigation__link">
+                  Phone Ring
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/radio/" class="global-navigation__link">
+                  Radio
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/rewind/" class="global-navigation__link">
+                  Rewind
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/robot/" class="global-navigation__link">
+                  Robot
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/static/" class="global-navigation__link">
+                  Static
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/tape-machine/" class="global-navigation__link">
+                  Tape Machine
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/tones/" class="global-navigation__link">
+                  Tones
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/tv/" class="global-navigation__link">
+                  TV
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/type/" class="global-navigation__link">
+                  Type
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/typewriter/" class="global-navigation__link">
+                  Typewriter
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/ding/" class="global-navigation__link">
+                  Ding
+                </a>
+            </div>
+          </div>
+        </div>
+        <div class="global-navigation__link-wrapper global-navigation__link-wrapper--has-children" data-global--sub-navigation--sub-navigation-target="link" data-columns="2">
+          <a href="https://mixkit.co/free-sound-effects/animals/" class="global-navigation__link" data-action="click-&gt;global--sub-navigation--sub-navigation#openModal">
+            Animals
+          </a>
+          <div class="global-navigation__link-children-outer">
+            <div class="global-navigation__link-children-inner">
+                <a href="https://mixkit.co/free-sound-effects/bird/" class="global-navigation__link">
+                  Bird
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/cat/" class="global-navigation__link">
+                  Cat
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/chicken/" class="global-navigation__link">
+                  Chicken
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/cow/" class="global-navigation__link">
+                  Cow
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/crickets/" class="global-navigation__link">
+                  Crickets
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/dog/" class="global-navigation__link">
+                  Dog
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/farm/" class="global-navigation__link">
+                  Farm
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/horse/" class="global-navigation__link">
+                  Horse
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/insect/" class="global-navigation__link">
+                  Insect
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/lion/" class="global-navigation__link">
+                  Lion
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/monkey/" class="global-navigation__link">
+                  Monkey
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/mouse/" class="global-navigation__link">
+                  Mouse
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/roar/" class="global-navigation__link">
+                  Roar
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/wild/" class="global-navigation__link">
+                  Wild
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/wolf/" class="global-navigation__link">
+                  Wolf
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/pig/" class="global-navigation__link">
+                  Pig
+                </a>
+            </div>
+          </div>
+        </div>
+        <div class="global-navigation__link-wrapper global-navigation__link-wrapper--has-children" data-global--sub-navigation--sub-navigation-target="link" data-columns="3">
+          <a href="https://mixkit.co/free-sound-effects/transport/" class="global-navigation__link" data-action="click-&gt;global--sub-navigation--sub-navigation#openModal">
+            Transport
+          </a>
+          <div class="global-navigation__link-children-outer">
+            <div class="global-navigation__link-children-inner">
+                <a href="https://mixkit.co/free-sound-effects/airport/" class="global-navigation__link">
+                  Airport
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/bike/" class="global-navigation__link">
+                  Bike
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/boat/" class="global-navigation__link">
+                  Boat
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/bus/" class="global-navigation__link">
+                  Bus
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/car/" class="global-navigation__link">
+                  Car
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/engine/" class="global-navigation__link">
+                  Engine
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/flying/" class="global-navigation__link">
+                  Flying
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/helicopter/" class="global-navigation__link">
+                  Helicopter
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/motorcycle/" class="global-navigation__link">
+                  Motorcycle
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/race-car/" class="global-navigation__link">
+                  Race Car
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/ship/" class="global-navigation__link">
+                  Ship
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/siren/" class="global-navigation__link">
+                  Siren
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/skateboard/" class="global-navigation__link">
+                  Skateboard
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/tanks/" class="global-navigation__link">
+                  Tanks
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/time-machine/" class="global-navigation__link">
+                  Time Machine
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/tractor/" class="global-navigation__link">
+                  Tractor
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/traffic/" class="global-navigation__link">
+                  Traffic
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/train/" class="global-navigation__link">
+                  Train
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/tram/" class="global-navigation__link">
+                  Tram
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/truck/" class="global-navigation__link">
+                  Truck
+                </a>
+            </div>
+          </div>
+        </div>
+        <div class="global-navigation__link-wrapper global-navigation__link-wrapper--has-children" data-global--sub-navigation--sub-navigation-target="link" data-columns="3">
+          <a href="https://mixkit.co/free-sound-effects/human/" class="global-navigation__link" data-action="click-&gt;global--sub-navigation--sub-navigation#openModal">
+            Human
+          </a>
+          <div class="global-navigation__link-children-outer">
+            <div class="global-navigation__link-children-inner">
+                <a href="https://mixkit.co/free-sound-effects/applause/" class="global-navigation__link">
+                  Applause
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/baby/" class="global-navigation__link">
+                  Baby
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/breathe/" class="global-navigation__link">
+                  Breathe
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/children/" class="global-navigation__link">
+                  Children
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/clap/" class="global-navigation__link">
+                  Clap
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/cough/" class="global-navigation__link">
+                  Cough
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/crowd/" class="global-navigation__link">
+                  Crowd
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/cry/" class="global-navigation__link">
+                  Cry
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/eat/" class="global-navigation__link">
+                  Eat
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/falling/" class="global-navigation__link">
+                  Falling
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/fart/" class="global-navigation__link">
+                  Fart
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/footsteps/" class="global-navigation__link">
+                  Footsteps
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/funny/" class="global-navigation__link">
+                  Funny
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/gasp/" class="global-navigation__link">
+                  Gasp
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/heartbeat/" class="global-navigation__link">
+                  Heartbeat
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/hum/" class="global-navigation__link">
+                  Hum
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/hurt/" class="global-navigation__link">
+                  Hurt
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/kiss/" class="global-navigation__link">
+                  Kiss
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/laugh/" class="global-navigation__link">
+                  Laugh
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/moan/" class="global-navigation__link">
+                  Moan
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/party/" class="global-navigation__link">
+                  Party
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/scream/" class="global-navigation__link">
+                  Scream
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/public-places/" class="global-navigation__link">
+                  Public Places
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/voices/" class="global-navigation__link">
+                  Voices
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/yawn/" class="global-navigation__link">
+                  Yawn
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/teeth/" class="global-navigation__link">
+                  Teeth
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/thank-you/" class="global-navigation__link">
+                  Thank You
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/sad/" class="global-navigation__link">
+                  Sad
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/sneeze/" class="global-navigation__link">
+                  Sneeze
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/terror/" class="global-navigation__link">
+                  Terror
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/jump/" class="global-navigation__link">
+                  Jump
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/cheer/" class="global-navigation__link">
+                  Cheer
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/walk/" class="global-navigation__link">
+                  Walk
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/run/" class="global-navigation__link">
+                  Run
+                </a>
+            </div>
+          </div>
+        </div>
+        <div class="global-navigation__link-wrapper global-navigation__link-wrapper--has-children" data-global--sub-navigation--sub-navigation-target="link" data-columns="2">
+          <a href="https://mixkit.co/free-sound-effects/warfare/" class="global-navigation__link" data-action="click-&gt;global--sub-navigation--sub-navigation#openModal">
+            Warfare
+          </a>
+          <div class="global-navigation__link-children-outer">
+            <div class="global-navigation__link-children-inner">
+                <a href="https://mixkit.co/free-sound-effects/battle/" class="global-navigation__link">
+                  Battle
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/battle-ambience/" class="global-navigation__link">
+                  Battle Ambience
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/bomb/" class="global-navigation__link">
+                  Bomb
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/explosion/" class="global-navigation__link">
+                  Explosion
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/fight/" class="global-navigation__link">
+                  Fight
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/gun/" class="global-navigation__link">
+                  Gun
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/hit/" class="global-navigation__link">
+                  Hit
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/medieval-battle/" class="global-navigation__link">
+                  Medieval Battle
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/rocket/" class="global-navigation__link">
+                  Rocket
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/sword/" class="global-navigation__link">
+                  Sword
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/war/" class="global-navigation__link">
+                  War
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/boom/" class="global-navigation__link">
+                  Boom
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/crash/" class="global-navigation__link">
+                  Crash
+                </a>
+            </div>
+          </div>
+        </div>
+        <div class="global-navigation__link-wrapper global-navigation__link-wrapper--has-children" data-global--sub-navigation--sub-navigation-target="link" data-columns="3">
+          <a href="https://mixkit.co/free-sound-effects/instrument/" class="global-navigation__link" data-action="click-&gt;global--sub-navigation--sub-navigation#openModal">
+            Instrument
+          </a>
+          <div class="global-navigation__link-children-outer">
+            <div class="global-navigation__link-children-inner">
+                <a href="https://mixkit.co/free-sound-effects/bass/" class="global-navigation__link">
+                  Bass
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/bell/" class="global-navigation__link">
+                  Bell
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/brass/" class="global-navigation__link">
+                  Brass
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/chimes/" class="global-navigation__link">
+                  Chimes
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/choir/" class="global-navigation__link">
+                  Choir
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/church-bell/" class="global-navigation__link">
+                  Church Bell
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/cymbal/" class="global-navigation__link">
+                  Cymbal
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/dj-record-scratch/" class="global-navigation__link">
+                  DJ Record Scratch
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/drum/" class="global-navigation__link">
+                  Drum
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/flute/" class="global-navigation__link">
+                  Flute
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/guitar/" class="global-navigation__link">
+                  Guitar
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/horn/" class="global-navigation__link">
+                  Horn
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/music/" class="global-navigation__link">
+                  Music
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/orchestra/" class="global-navigation__link">
+                  Orchestra
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/rock/" class="global-navigation__link">
+                  Rock
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/sleigh-bells/" class="global-navigation__link">
+                  Sleigh Bells
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/synth/" class="global-navigation__link">
+                  Synth
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/violins/" class="global-navigation__link">
+                  Violins
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/whistle/" class="global-navigation__link">
+                  Whistle
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/suspense-music/" class="global-navigation__link">
+                  Suspense Music
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/tap/" class="global-navigation__link">
+                  Tap
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/piano/" class="global-navigation__link">
+                  Piano
+                </a>
+            </div>
+          </div>
+        </div>
+        <div class="global-navigation__link-wrapper global-navigation__link-wrapper--has-children" data-global--sub-navigation--sub-navigation-target="link" data-columns="3">
+          <a href="https://mixkit.co/free-sound-effects/lifestyle/" class="global-navigation__link" data-action="click-&gt;global--sub-navigation--sub-navigation#openModal">
+            Lifestyle
+          </a>
+          <div class="global-navigation__link-children-outer">
+            <div class="global-navigation__link-children-inner">
+                <a href="https://mixkit.co/free-sound-effects/appliances/" class="global-navigation__link">
+                  Appliances
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/bar/" class="global-navigation__link">
+                  Bar
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/bathroom/" class="global-navigation__link">
+                  Bathroom
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/bedroom/" class="global-navigation__link">
+                  Bedroom
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/church/" class="global-navigation__link">
+                  Church
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/city/" class="global-navigation__link">
+                  City
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/cleaning/" class="global-navigation__link">
+                  Cleaning
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/cooking/" class="global-navigation__link">
+                  Cooking
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/creaking-floorboard/" class="global-navigation__link">
+                  Creaking Floorboard
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/doorbell/" class="global-navigation__link">
+                  Doorbell
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/doors/" class="global-navigation__link">
+                  Doors
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/drink/" class="global-navigation__link">
+                  Drink
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/emergency/" class="global-navigation__link">
+                  Emergency
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/food/" class="global-navigation__link">
+                  Food
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/garden/" class="global-navigation__link">
+                  Garden
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/hall/" class="global-navigation__link">
+                  Hall
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/hospital/" class="global-navigation__link">
+                  Hospital
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/kitchen/" class="global-navigation__link">
+                  Kitchen
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/office/" class="global-navigation__link">
+                  Office
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/restaurant/" class="global-navigation__link">
+                  Restaurant
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/school/" class="global-navigation__link">
+                  School
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/supermarket/" class="global-navigation__link">
+                  Supermarket
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/sweeping/" class="global-navigation__link">
+                  Sweeping
+                </a>
+            </div>
+          </div>
+        </div>
+        <div class="global-navigation__link-wrapper global-navigation__link-wrapper--has-children" data-global--sub-navigation--sub-navigation-target="link" data-columns="3" data-dropdown-direction="left">
+          <a href="https://mixkit.co/free-sound-effects/game/" class="global-navigation__link" data-action="click-&gt;global--sub-navigation--sub-navigation#openModal">
+            Game
+          </a>
+          <div class="global-navigation__link-children-outer">
+            <div class="global-navigation__link-children-inner">
+                <a href="https://mixkit.co/free-sound-effects/arcade/" class="global-navigation__link">
+                  Arcade
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/arcade-sport/" class="global-navigation__link">
+                  Arcade Sport
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/asteroid/" class="global-navigation__link">
+                  Asteroid
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/athletics/" class="global-navigation__link">
+                  Athletics
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/ball/" class="global-navigation__link">
+                  Ball
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/basketball/" class="global-navigation__link">
+                  Basketball
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/boxing/" class="global-navigation__link">
+                  Boxing
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/casino/" class="global-navigation__link">
+                  Casino
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/game-over/" class="global-navigation__link">
+                  Game Over
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/game-show/" class="global-navigation__link">
+                  Game Show
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/goal/" class="global-navigation__link">
+                  Goal
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/golf/" class="global-navigation__link">
+                  Golf
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/light-saber/" class="global-navigation__link">
+                  Light Saber
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/lose/" class="global-navigation__link">
+                  Lose
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/monster/" class="global-navigation__link">
+                  Monster
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/player/" class="global-navigation__link">
+                  Player
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/punch/" class="global-navigation__link">
+                  Punch
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/slot-machine/" class="global-navigation__link">
+                  Slot Machine
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/soccer/" class="global-navigation__link">
+                  Soccer
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/space-shooter/" class="global-navigation__link">
+                  Space Shooter
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/sports/" class="global-navigation__link">
+                  Sports
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/toy/" class="global-navigation__link">
+                  Toy
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/video-game/" class="global-navigation__link">
+                  Video Game
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/win/" class="global-navigation__link">
+                  Win
+                </a>
+            </div>
+          </div>
+        </div>
+        <div class="global-navigation__link-wrapper global-navigation__link-wrapper--has-children" data-global--sub-navigation--sub-navigation-target="link" data-columns="3" data-dropdown-direction="left">
+          <a href="https://mixkit.co/free-sound-effects/misc/" class="global-navigation__link" data-action="click-&gt;global--sub-navigation--sub-navigation#openModal">
+            Misc
+          </a>
+          <div class="global-navigation__link-children-outer">
+            <div class="global-navigation__link-children-inner">
+                <a href="https://mixkit.co/free-sound-effects/balloon/" class="global-navigation__link">
+                  Balloon
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/break/" class="global-navigation__link">
+                  Break
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/bubbles/" class="global-navigation__link">
+                  Bubbles
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/cartoon/" class="global-navigation__link">
+                  Cartoon
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/coin/" class="global-navigation__link">
+                  Coin
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/construction/" class="global-navigation__link">
+                  Construction
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/countdown/" class="global-navigation__link">
+                  Countdown
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/cute/" class="global-navigation__link">
+                  Cute
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/fairy/" class="global-navigation__link">
+                  Fairy
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/festive/" class="global-navigation__link">
+                  Festive
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/fireworks/" class="global-navigation__link">
+                  Fireworks
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/intro/" class="global-navigation__link">
+                  Intro
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/halloween/" class="global-navigation__link">
+                  Halloween
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/key/" class="global-navigation__link">
+                  Key
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/lock/" class="global-navigation__link">
+                  Lock
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/magic/" class="global-navigation__link">
+                  Magic
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/metal/" class="global-navigation__link">
+                  Metal
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/movie/" class="global-navigation__link">
+                  Movie
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/page/" class="global-navigation__link">
+                  Page
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/paper/" class="global-navigation__link">
+                  Paper
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/police/" class="global-navigation__link">
+                  Police
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/pop/" class="global-navigation__link">
+                  Pop
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/sci-fi/" class="global-navigation__link">
+                  Sci-Fi
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/sparkle/" class="global-navigation__link">
+                  Sparkle
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/spell/" class="global-navigation__link">
+                  Spell
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/squeak/" class="global-navigation__link">
+                  Squeak
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/tools/" class="global-navigation__link">
+                  Tools
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/white-noise/" class="global-navigation__link">
+                  White Noise
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/write/" class="global-navigation__link">
+                  Write
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/happy/" class="global-navigation__link">
+                  Happy
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/horror/" class="global-navigation__link">
+                  Horror
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/money/" class="global-navigation__link">
+                  Money
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/glass/" class="global-navigation__link">
+                  Glass
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/drop/" class="global-navigation__link">
+                  Drop
+                </a>
+                <a href="https://mixkit.co/free-sound-effects/wow/" class="global-navigation__link">
+                  Wow
+                </a>
+            </div>
+          </div>
+        </div>
+    <div class="global-navigation__link-wrapper" data-global--sub-navigation--sub-navigation-target="more" data-columns="0" data-dropdown-direction="left">
+      <span class="global-navigation__link">More</span>
+      <div class="global-navigation__link-children-outer">
+        <div class="global-navigation__link-children-inner" data-global--sub-navigation--sub-navigation-target="moreLinks"></div>
+      </div>
+    </div>
+  </nav>
+  <template data-global--sub-navigation--sub-navigation-target="template"></template>
+</div>
+
+
+    <div class="search-no-results__wrapper">
+  <h1 class="search-no-results__title">No results found.</h1>
+  <p class="search-no-results__text">
+    Okay, you've stumped us! We do not currently have any results for <strong>"Yummy"</strong>.
+  </p>
+</div>
+
+    <script data-controller="global--analytics" data-global--analytics-action-value="Yummy" data-global--analytics-category-value="Search Result" data-global--analytics-label-value="sfx" data-global--analytics-value-value="0" data-global--analytics-non-interaction-value="true">
+</script>
+
+      <div class="elements-audio-items">
+  <div class="elements-audio-items__inner">
+    <div class="elements-audio-items__header">
+      <div class="elements-audio-items__logo">
+        <a title="Envato Elements" rel="sponsored noopener noreferrer" target="_blank" href="https://elements.envato.com/sound-effects/yummy?utm_source=mixkit&amp;utm_medium=referral&amp;utm_campaign=elements_mixkit_cs_sfx_search_no_results" class="" data-controller="elements--link" data-elements--link-campaign-value="elements_mixkit_cs_sfx_search_no_results" data-elements--link-uri-value="/sound-effects/yummy" data-action="click-&gt;elements--link#logClickEvent">
+  <img class="elements-audio-items__logo-svg" alt="Envato Elements" width="254" height="27" loading="lazy" src="./energy_files/elements-logo-c261bed7471105c650a86955a75ac1e08024ebe5c905547be1aae0274ac10eef.svg">
+</a>
+
+      </div>
+      <div class="elements-audio-items__heading">
+        <p class="elements-audio-items__heading-title">Don’t fret, Envato Elements has you covered.</p>
+        <p class="elements-audio-items__heading-subtitle">47 "yummy" related premium sound effects have been found over on Envato Elements.</p>
+      </div>
+      <div class="elements-audio-items__cta">
+        <a title="Envato Elements" rel="sponsored noopener noreferrer" target="_blank" href="https://elements.envato.com/sound-effects/yummy?utm_source=mixkit&amp;utm_medium=referral&amp;utm_campaign=elements_mixkit_cs_sfx_search_no_results" class="elements-audio-items__cta-button" data-controller="elements--link" data-elements--link-campaign-value="elements_mixkit_cs_sfx_search_no_results" data-elements--link-uri-value="/sound-effects/yummy" data-action="click-&gt;elements--link#logClickEvent">
+  Get Unlimited Downloads
+</a>
+
+      </div>
+    </div>
+    <div class="elements-audio-items__items">
+      <div class="item-grid-wrapper" style="--columns: 3">
+  
+    <div class="item-grid-item">
+      
+            <div class="item-grid-card item-grid-card--show-meta">
+                  <div data-controller="audio-player" data-audio-player-waveform-url-value="https://waveform.customer.envato.com/tsunami/274790984/preview.mp3" data-audio-player-preview-url-value="https://audio-previews.elements.envatousercontent.com/files/274790984/preview.mp3" data-audio-player-id-value="JGASCN8" data-audio-player-type-value="elements-sfx" data-audio-player-wave-color-value="#ffffff" data-audio-player-playing-value="false" data-audio-player-loaded-value="true">
+  <div class="audio-player__wave-wrapper" style="background-color: #80b638">
+    <div class="audio-player__wave" data-audio-player-target="wave" data-action="click-&gt;audio-player#userInteraction" style="background: transparent;"><wave style="display: block; position: relative; user-select: none; height: 100px; overflow: hidden;"><wave style="position: absolute; z-index: 3; left: 0px; top: 0px; bottom: 0px; overflow: hidden; width: 302px; display: block; box-sizing: border-box; border-right: 1px solid transparent; pointer-events: none;"><canvas width="890" height="200" style="position: absolute; left: 0px; top: 0px; bottom: 0px; height: 100%; width: 445px;"></canvas></wave><canvas width="890" height="200" style="position: absolute; z-index: 2; left: 0px; top: 0px; bottom: 0px; height: 100%; pointer-events: none; width: 445px;"></canvas></wave><audio preload="none" src="https://audio-previews.elements.envatousercontent.com/files/274790984/preview.mp3" style="width: 100%;"></audio></div>
+    <button class="audio-player__button" data-action="click-&gt;audio-player#handleTogglePlay">
+      <div class="audio-player__button-icon"></div>
+    </button>
+    <div class="audio-player__progress" data-audio-player-target="progress" style="left: 67.8%;"></div>
+  </div>
+</div>
+
+
+    <div class="item-grid-card__meta">
+      <h4 class="item-grid-card__title">
+          Girl Saying Yummy
+      </h4>
+                      <a title="Envato Elements" rel="sponsored noopener noreferrer" target="_blank" href="https://elements.envato.com/girl-saying-yummy-JGASCN8?utm_source=mixkit&amp;utm_medium=referral&amp;utm_campaign=elements_mixkit_cs_sfx_search_no_results" class="elements-audio-items__button" data-controller="elements--link" data-elements--link-campaign-value="elements_mixkit_cs_sfx_search_no_results" data-elements--link-uri-value="https://elements.envato.com/girl-saying-yummy-JGASCN8" data-action="click-&gt;elements--link#logClickEvent">
+  View on Envato Elements
+</a>
+
+
+    </div>
+</div>
+
+    </div>
+    <div class="item-grid-item">
+      
+            <div class="item-grid-card item-grid-card--show-meta">
+                  <div data-controller="audio-player" data-audio-player-waveform-url-value="https://waveform.customer.envato.com/tsunami/262540004/preview.mp3" data-audio-player-preview-url-value="https://audio-previews.elements.envatousercontent.com/files/262540004/preview.mp3" data-audio-player-id-value="VC34E72" data-audio-player-type-value="elements-sfx" data-audio-player-wave-color-value="#ffffff" data-audio-player-playing-value="false" data-audio-player-loaded-value="true">
+  <div class="audio-player__wave-wrapper" style="background-color: #80b638">
+    <div class="audio-player__wave" data-audio-player-target="wave" data-action="click-&gt;audio-player#userInteraction" style="background: transparent;"><wave style="display: block; position: relative; user-select: none; height: 100px; overflow: hidden;"><wave style="position: absolute; z-index: 3; left: 0px; top: 0px; bottom: 0px; overflow: hidden; width: 376px; display: block; box-sizing: border-box; border-right: 1px solid transparent; pointer-events: none;"><canvas width="890" height="200" style="position: absolute; left: 0px; top: 0px; bottom: 0px; height: 100%; width: 445px;"></canvas></wave><canvas width="890" height="200" style="position: absolute; z-index: 2; left: 0px; top: 0px; bottom: 0px; height: 100%; pointer-events: none; width: 445px;"></canvas></wave><audio preload="none" src="https://audio-previews.elements.envatousercontent.com/files/262540004/preview.mp3" style="width: 100%;"></audio></div>
+    <button class="audio-player__button" data-action="click-&gt;audio-player#handleTogglePlay">
+      <div class="audio-player__button-icon"></div>
+    </button>
+    <div class="audio-player__progress" data-audio-player-target="progress" style="left: 84.4%;"></div>
+  </div>
+</div>
+
+
+    <div class="item-grid-card__meta">
+      <h4 class="item-grid-card__title">
+          Female Voice Yummy
+      </h4>
+                      <a title="Envato Elements" rel="sponsored noopener noreferrer" target="_blank" href="https://elements.envato.com/female-voice-yummy-VC34E72?utm_source=mixkit&amp;utm_medium=referral&amp;utm_campaign=elements_mixkit_cs_sfx_search_no_results" class="elements-audio-items__button" data-controller="elements--link" data-elements--link-campaign-value="elements_mixkit_cs_sfx_search_no_results" data-elements--link-uri-value="https://elements.envato.com/female-voice-yummy-VC34E72" data-action="click-&gt;elements--link#logClickEvent">
+  View on Envato Elements
+</a>
+
+
+    </div>
+</div>
+
+    </div>
+    <div class="item-grid-item">
+      
+            <div class="item-grid-card item-grid-card--show-meta">
+                  <div data-controller="audio-player" data-audio-player-waveform-url-value="https://waveform.customer.envato.com/tsunami/181008029/preview.mp3" data-audio-player-preview-url-value="https://audio-previews.elements.envatousercontent.com/files/181008029/preview.mp3" data-audio-player-id-value="6TLE5GJ" data-audio-player-type-value="elements-sfx" data-audio-player-wave-color-value="#ffffff" data-audio-player-playing-value="false" data-audio-player-loaded-value="true">
+  <div class="audio-player__wave-wrapper" style="background-color: #80b638">
+    <div class="audio-player__wave" data-audio-player-target="wave" data-action="click-&gt;audio-player#userInteraction" style="background: transparent;"><wave style="display: block; position: relative; user-select: none; height: 100px; overflow: hidden;"><wave style="position: absolute; z-index: 3; left: 0px; top: 0px; bottom: 0px; overflow: hidden; width: 402.5px; display: block; box-sizing: border-box; border-right: 1px solid transparent; pointer-events: none;"><canvas width="890" height="200" style="position: absolute; left: 0px; top: 0px; bottom: 0px; height: 100%; width: 445px;"></canvas></wave><canvas width="890" height="200" style="position: absolute; z-index: 2; left: 0px; top: 0px; bottom: 0px; height: 100%; pointer-events: none; width: 445px;"></canvas></wave><audio preload="none" src="https://audio-previews.elements.envatousercontent.com/files/181008029/preview.mp3" style="width: 100%;"></audio></div>
+    <button class="audio-player__button" data-action="click-&gt;audio-player#handleTogglePlay">
+      <div class="audio-player__button-icon"></div>
+    </button>
+    <div class="audio-player__progress" data-audio-player-target="progress" style="left: 90.4%;"></div>
+  </div>
+</div>
+
+
+    <div class="item-grid-card__meta">
+      <h4 class="item-grid-card__title">
+          Monster Yummy Voice
+      </h4>
+                      <a title="Envato Elements" rel="sponsored noopener noreferrer" target="_blank" href="https://elements.envato.com/monster-yummy-voice-6TLE5GJ?utm_source=mixkit&amp;utm_medium=referral&amp;utm_campaign=elements_mixkit_cs_sfx_search_no_results" class="elements-audio-items__button" data-controller="elements--link" data-elements--link-campaign-value="elements_mixkit_cs_sfx_search_no_results" data-elements--link-uri-value="https://elements.envato.com/monster-yummy-voice-6TLE5GJ" data-action="click-&gt;elements--link#logClickEvent">
+  View on Envato Elements
+</a>
+
+
+    </div>
+</div>
+
+    </div>
+    <div class="item-grid-item">
+      
+            <div class="item-grid-card item-grid-card--show-meta">
+                  <div data-controller="audio-player" data-audio-player-waveform-url-value="https://waveform.customer.envato.com/tsunami/57790897/preview.mp3" data-audio-player-preview-url-value="https://audio-previews.elements.envatousercontent.com/files/57790897/preview.mp3" data-audio-player-id-value="27VNL6Z" data-audio-player-type-value="elements-sfx" data-audio-player-wave-color-value="#ffffff" data-audio-player-playing-value="false" data-audio-player-loaded-value="true">
+  <div class="audio-player__wave-wrapper" style="background-color: #80b638">
+    <div class="audio-player__wave" data-audio-player-target="wave" data-action="click-&gt;audio-player#userInteraction" style="background: transparent;"><wave style="display: block; position: relative; user-select: none; height: 100px; overflow: hidden;"><wave style="position: absolute; z-index: 3; left: 0px; top: 0px; bottom: 0px; overflow: hidden; width: 445px; display: block; box-sizing: border-box; border-right: 1px solid transparent; pointer-events: none;"><canvas width="890" height="200" style="position: absolute; left: 0px; top: 0px; bottom: 0px; height: 100%; width: 445px;"></canvas></wave><canvas width="890" height="200" style="position: absolute; z-index: 2; left: 0px; top: 0px; bottom: 0px; height: 100%; pointer-events: none; width: 445px;"></canvas></wave><audio preload="none" src="https://audio-previews.elements.envatousercontent.com/files/57790897/preview.mp3" style="width: 100%;"></audio></div>
+    <button class="audio-player__button" data-action="click-&gt;audio-player#handleTogglePlay">
+      <div class="audio-player__button-icon"></div>
+    </button>
+    <div class="audio-player__progress" data-audio-player-target="progress" style="left: 100%;"></div>
+  </div>
+</div>
+
+
+    <div class="item-grid-card__meta">
+      <h4 class="item-grid-card__title">
+          Male Voice Yummy
+      </h4>
+                      <a title="Envato Elements" rel="sponsored noopener noreferrer" target="_blank" href="https://elements.envato.com/male-voice-yummy-27VNL6Z?utm_source=mixkit&amp;utm_medium=referral&amp;utm_campaign=elements_mixkit_cs_sfx_search_no_results" class="elements-audio-items__button" data-controller="elements--link" data-elements--link-campaign-value="elements_mixkit_cs_sfx_search_no_results" data-elements--link-uri-value="https://elements.envato.com/male-voice-yummy-27VNL6Z" data-action="click-&gt;elements--link#logClickEvent">
+  View on Envato Elements
+</a>
+
+
+    </div>
+</div>
+
+    </div>
+    <div class="item-grid-item">
+      
+            <div class="item-grid-card item-grid-card--show-meta">
+                  <div data-controller="audio-player" data-audio-player-waveform-url-value="https://waveform.customer.envato.com/tsunami/211879647/preview.mp3" data-audio-player-preview-url-value="https://audio-previews.elements.envatousercontent.com/files/211879647/preview.mp3" data-audio-player-id-value="YA24R8Q" data-audio-player-type-value="elements-sfx" data-audio-player-wave-color-value="#ffffff" data-audio-player-playing-value="false" data-audio-player-loaded-value="true">
+  <div class="audio-player__wave-wrapper" style="background-color: #80b638">
+    <div class="audio-player__wave" data-audio-player-target="wave" data-action="click-&gt;audio-player#userInteraction" style="background: transparent;"><wave style="display: block; position: relative; user-select: none; height: 100px; overflow: hidden;"><wave style="position: absolute; z-index: 3; left: 0px; top: 0px; bottom: 0px; overflow: hidden; width: 445px; display: block; box-sizing: border-box; border-right: 1px solid transparent; pointer-events: none;"><canvas width="890" height="200" style="position: absolute; left: 0px; top: 0px; bottom: 0px; height: 100%; width: 445px;"></canvas></wave><canvas width="890" height="200" style="position: absolute; z-index: 2; left: 0px; top: 0px; bottom: 0px; height: 100%; pointer-events: none; width: 445px;"></canvas></wave><audio preload="none" src="https://audio-previews.elements.envatousercontent.com/files/211879647/preview.mp3" style="width: 100%;"></audio></div>
+    <button class="audio-player__button" data-action="click-&gt;audio-player#handleTogglePlay">
+      <div class="audio-player__button-icon"></div>
+    </button>
+    <div class="audio-player__progress" data-audio-player-target="progress" style="left: 100%;"></div>
+  </div>
+</div>
+
+
+    <div class="item-grid-card__meta">
+      <h4 class="item-grid-card__title">
+          Cartoon Voice Yummy
+      </h4>
+                      <a title="Envato Elements" rel="sponsored noopener noreferrer" target="_blank" href="https://elements.envato.com/cartoon-voice-yummy-YA24R8Q?utm_source=mixkit&amp;utm_medium=referral&amp;utm_campaign=elements_mixkit_cs_sfx_search_no_results" class="elements-audio-items__button" data-controller="elements--link" data-elements--link-campaign-value="elements_mixkit_cs_sfx_search_no_results" data-elements--link-uri-value="https://elements.envato.com/cartoon-voice-yummy-YA24R8Q" data-action="click-&gt;elements--link#logClickEvent">
+  View on Envato Elements
+</a>
+
+
+    </div>
+</div>
+
+    </div>
+    <div class="item-grid-item">
+      
+            <div class="item-grid-card item-grid-card--show-meta">
+                  <div data-controller="audio-player" data-audio-player-waveform-url-value="https://waveform.customer.envato.com/tsunami/171454082/preview.mp3" data-audio-player-preview-url-value="https://audio-previews.elements.envatousercontent.com/files/171454082/preview.mp3" data-audio-player-id-value="6YKNF9W" data-audio-player-type-value="elements-sfx" data-audio-player-wave-color-value="#ffffff" data-audio-player-playing-value="false" data-audio-player-loaded-value="true">
+  <div class="audio-player__wave-wrapper" style="background-color: #80b638">
+    <div class="audio-player__wave" data-audio-player-target="wave" data-action="click-&gt;audio-player#userInteraction" style="background: transparent;"><wave style="display: block; position: relative; user-select: none; height: 100px; overflow: hidden;"><wave style="position: absolute; z-index: 3; left: 0px; top: 0px; bottom: 0px; overflow: hidden; width: 445px; display: block; box-sizing: border-box; border-right: 1px solid transparent; pointer-events: none;"><canvas width="890" height="200" style="position: absolute; left: 0px; top: 0px; bottom: 0px; height: 100%; width: 445px;"></canvas></wave><canvas width="890" height="200" style="position: absolute; z-index: 2; left: 0px; top: 0px; bottom: 0px; height: 100%; pointer-events: none; width: 445px;"></canvas></wave><audio preload="none" src="https://audio-previews.elements.envatousercontent.com/files/171454082/preview.mp3" style="width: 100%;"></audio></div>
+    <button class="audio-player__button" data-action="click-&gt;audio-player#handleTogglePlay">
+      <div class="audio-player__button-icon"></div>
+    </button>
+    <div class="audio-player__progress" data-audio-player-target="progress" style="left: 100%;"></div>
+  </div>
+</div>
+
+
+    <div class="item-grid-card__meta">
+      <h4 class="item-grid-card__title">
+          Cartoon Lion Yummy
+      </h4>
+                      <a title="Envato Elements" rel="sponsored noopener noreferrer" target="_blank" href="https://elements.envato.com/cartoon-lion-yummy-6YKNF9W?utm_source=mixkit&amp;utm_medium=referral&amp;utm_campaign=elements_mixkit_cs_sfx_search_no_results" class="elements-audio-items__button" data-controller="elements--link" data-elements--link-campaign-value="elements_mixkit_cs_sfx_search_no_results" data-elements--link-uri-value="https://elements.envato.com/cartoon-lion-yummy-6YKNF9W" data-action="click-&gt;elements--link#logClickEvent">
+  View on Envato Elements
+</a>
+
+
+    </div>
+</div>
+
+    </div>
+    <div class="item-grid-item">
+      
+            <div class="item-grid-card item-grid-card--show-meta">
+                  <div data-controller="audio-player" data-audio-player-waveform-url-value="https://waveform.customer.envato.com/tsunami/257894506/preview.mp3" data-audio-player-preview-url-value="https://audio-previews.elements.envatousercontent.com/files/257894506/preview.mp3" data-audio-player-id-value="KJMZ3XN" data-audio-player-type-value="elements-sfx" data-audio-player-wave-color-value="#ffffff" data-audio-player-playing-value="false" data-audio-player-loaded-value="true">
+  <div class="audio-player__wave-wrapper" style="background-color: #80b638">
+    <div class="audio-player__wave" data-audio-player-target="wave" data-action="click-&gt;audio-player#userInteraction" style="background: transparent;"><wave style="display: block; position: relative; user-select: none; height: 100px; overflow: hidden;"><wave style="position: absolute; z-index: 3; left: 0px; top: 0px; bottom: 0px; overflow: hidden; width: 445px; display: block; box-sizing: border-box; border-right: 1px solid transparent; pointer-events: none;"><canvas width="890" height="200" style="position: absolute; left: 0px; top: 0px; bottom: 0px; height: 100%; width: 445px;"></canvas></wave><canvas width="890" height="200" style="position: absolute; z-index: 2; left: 0px; top: 0px; bottom: 0px; height: 100%; pointer-events: none; width: 445px;"></canvas></wave><audio preload="none" src="https://audio-previews.elements.envatousercontent.com/files/257894506/preview.mp3" style="width: 100%;"></audio></div>
+    <button class="audio-player__button" data-action="click-&gt;audio-player#handleTogglePlay">
+      <div class="audio-player__button-icon"></div>
+    </button>
+    <div class="audio-player__progress" data-audio-player-target="progress" style="left: 100%;"></div>
+  </div>
+</div>
+
+
+    <div class="item-grid-card__meta">
+      <h4 class="item-grid-card__title">
+          Cartoon Tiny Yummy Voice
+      </h4>
+                      <a title="Envato Elements" rel="sponsored noopener noreferrer" target="_blank" href="https://elements.envato.com/cartoon-tiny-yummy-voice-KJMZ3XN?utm_source=mixkit&amp;utm_medium=referral&amp;utm_campaign=elements_mixkit_cs_sfx_search_no_results" class="elements-audio-items__button" data-controller="elements--link" data-elements--link-campaign-value="elements_mixkit_cs_sfx_search_no_results" data-elements--link-uri-value="https://elements.envato.com/cartoon-tiny-yummy-voice-KJMZ3XN" data-action="click-&gt;elements--link#logClickEvent">
+  View on Envato Elements
+</a>
+
+
+    </div>
+</div>
+
+    </div>
+    <div class="item-grid-item">
+      
+            <div class="item-grid-card item-grid-card--show-meta">
+                  <div data-controller="audio-player" data-audio-player-waveform-url-value="https://waveform.customer.envato.com/tsunami/257586437/preview.mp3" data-audio-player-preview-url-value="https://audio-previews.elements.envatousercontent.com/files/257586437/preview.mp3" data-audio-player-id-value="A53SPD4" data-audio-player-type-value="elements-sfx" data-audio-player-wave-color-value="#ffffff" data-audio-player-playing-value="false" data-audio-player-loaded-value="true">
+  <div class="audio-player__wave-wrapper" style="background-color: #80b638">
+    <div class="audio-player__wave" data-audio-player-target="wave" data-action="click-&gt;audio-player#userInteraction" style="background: transparent;"><wave style="display: block; position: relative; user-select: none; height: 100px; overflow: hidden;"><wave style="position: absolute; z-index: 3; left: 0px; top: 0px; bottom: 0px; overflow: hidden; width: 445px; display: block; box-sizing: border-box; border-right: 1px solid transparent; pointer-events: none;"><canvas width="890" height="200" style="position: absolute; left: 0px; top: 0px; bottom: 0px; height: 100%; width: 445px;"></canvas></wave><canvas width="890" height="200" style="position: absolute; z-index: 2; left: 0px; top: 0px; bottom: 0px; height: 100%; pointer-events: none; width: 445px;"></canvas></wave><audio preload="none" src="https://audio-previews.elements.envatousercontent.com/files/257586437/preview.mp3" style="width: 100%;"></audio></div>
+    <button class="audio-player__button" data-action="click-&gt;audio-player#handleTogglePlay">
+      <div class="audio-player__button-icon"></div>
+    </button>
+    <div class="audio-player__progress" data-audio-player-target="progress" style="left: 100%;"></div>
+  </div>
+</div>
+
+
+    <div class="item-grid-card__meta">
+      <h4 class="item-grid-card__title">
+          Cartoon Yummy Voice
+      </h4>
+                      <a title="Envato Elements" rel="sponsored noopener noreferrer" target="_blank" href="https://elements.envato.com/cartoon-yummy-voice-A53SPD4?utm_source=mixkit&amp;utm_medium=referral&amp;utm_campaign=elements_mixkit_cs_sfx_search_no_results" class="elements-audio-items__button" data-controller="elements--link" data-elements--link-campaign-value="elements_mixkit_cs_sfx_search_no_results" data-elements--link-uri-value="https://elements.envato.com/cartoon-yummy-voice-A53SPD4" data-action="click-&gt;elements--link#logClickEvent">
+  View on Envato Elements
+</a>
+
+
+    </div>
+</div>
+
+    </div>
+    <div class="item-grid-item">
+      
+            <div class="item-grid-card item-grid-card--show-meta">
+                  <div data-controller="audio-player" data-audio-player-waveform-url-value="https://waveform.customer.envato.com/tsunami/58669103/preview.mp3" data-audio-player-preview-url-value="https://audio-previews.elements.envatousercontent.com/files/58669103/preview.mp3" data-audio-player-id-value="QBECRH3" data-audio-player-type-value="elements-sfx" data-audio-player-wave-color-value="#ffffff" data-audio-player-playing-value="false" data-audio-player-loaded-value="true">
+  <div class="audio-player__wave-wrapper" style="background-color: #80b638">
+    <div class="audio-player__wave" data-audio-player-target="wave" data-action="click-&gt;audio-player#userInteraction" style="background: transparent;"><wave style="display: block; position: relative; user-select: none; height: 100px; overflow: hidden;"><wave style="position: absolute; z-index: 3; left: 0px; top: 0px; bottom: 0px; overflow: hidden; width: 445px; display: block; box-sizing: border-box; border-right: 1px solid transparent; pointer-events: none;"><canvas width="890" height="200" style="position: absolute; left: 0px; top: 0px; bottom: 0px; height: 100%; width: 445px;"></canvas></wave><canvas width="890" height="200" style="position: absolute; z-index: 2; left: 0px; top: 0px; bottom: 0px; height: 100%; pointer-events: none; width: 445px;"></canvas></wave><audio preload="none" src="https://audio-previews.elements.envatousercontent.com/files/58669103/preview.mp3" style="width: 100%;"></audio></div>
+    <button class="audio-player__button" data-action="click-&gt;audio-player#handleTogglePlay">
+      <div class="audio-player__button-icon"></div>
+    </button>
+    <div class="audio-player__progress" data-audio-player-target="progress" style="left: 100%;"></div>
+  </div>
+</div>
+
+
+    <div class="item-grid-card__meta">
+      <h4 class="item-grid-card__title">
+          Cartoon Voice Yummy
+      </h4>
+                      <a title="Envato Elements" rel="sponsored noopener noreferrer" target="_blank" href="https://elements.envato.com/cartoon-voice-yummy-QBECRH3?utm_source=mixkit&amp;utm_medium=referral&amp;utm_campaign=elements_mixkit_cs_sfx_search_no_results" class="elements-audio-items__button" data-controller="elements--link" data-elements--link-campaign-value="elements_mixkit_cs_sfx_search_no_results" data-elements--link-uri-value="https://elements.envato.com/cartoon-voice-yummy-QBECRH3" data-action="click-&gt;elements--link#logClickEvent">
+  View on Envato Elements
+</a>
+
+
+    </div>
+</div>
+
+    </div>
+    <div class="item-grid-item">
+      
+            <div class="item-grid-card item-grid-card--show-meta">
+                  <div data-controller="audio-player" data-audio-player-waveform-url-value="https://waveform.customer.envato.com/tsunami/85530496/preview.mp3" data-audio-player-preview-url-value="https://audio-previews.elements.envatousercontent.com/files/85530496/preview.mp3" data-audio-player-id-value="S2XMJ8E" data-audio-player-type-value="elements-sfx" data-audio-player-wave-color-value="#ffffff" data-audio-player-playing-value="false" data-audio-player-loaded-value="true">
+  <div class="audio-player__wave-wrapper" style="background-color: #80b638">
+    <div class="audio-player__wave" data-audio-player-target="wave" data-action="click-&gt;audio-player#userInteraction" style="background: transparent;"><wave style="display: block; position: relative; user-select: none; height: 100px; overflow: hidden;"><wave style="position: absolute; z-index: 3; left: 0px; top: 0px; bottom: 0px; overflow: hidden; width: 445px; display: block; box-sizing: border-box; border-right: 1px solid transparent; pointer-events: none;"><canvas width="890" height="200" style="position: absolute; left: 0px; top: 0px; bottom: 0px; height: 100%; width: 445px;"></canvas></wave><canvas width="890" height="200" style="position: absolute; z-index: 2; left: 0px; top: 0px; bottom: 0px; height: 100%; pointer-events: none; width: 445px;"></canvas></wave><audio preload="none" src="https://audio-previews.elements.envatousercontent.com/files/85530496/preview.mp3" style="width: 100%;"></audio></div>
+    <button class="audio-player__button" data-action="click-&gt;audio-player#handleTogglePlay">
+      <div class="audio-player__button-icon"></div>
+    </button>
+    <div class="audio-player__progress" data-audio-player-target="progress" style="left: 100%;"></div>
+  </div>
+</div>
+
+
+    <div class="item-grid-card__meta">
+      <h4 class="item-grid-card__title">
+          Cartoon Yummy Voice
+      </h4>
+                      <a title="Envato Elements" rel="sponsored noopener noreferrer" target="_blank" href="https://elements.envato.com/cartoon-yummy-voice-S2XMJ8E?utm_source=mixkit&amp;utm_medium=referral&amp;utm_campaign=elements_mixkit_cs_sfx_search_no_results" class="elements-audio-items__button" data-controller="elements--link" data-elements--link-campaign-value="elements_mixkit_cs_sfx_search_no_results" data-elements--link-uri-value="https://elements.envato.com/cartoon-yummy-voice-S2XMJ8E" data-action="click-&gt;elements--link#logClickEvent">
+  View on Envato Elements
+</a>
+
+
+    </div>
+</div>
+
+    </div>
+    <div class="item-grid-item">
+      
+            <div class="item-grid-card item-grid-card--show-meta">
+                  <div data-controller="audio-player" data-audio-player-waveform-url-value="https://waveform.customer.envato.com/tsunami/159307992/preview.mp3" data-audio-player-preview-url-value="https://audio-previews.elements.envatousercontent.com/files/159307992/preview.mp3" data-audio-player-id-value="EZDG98X" data-audio-player-type-value="elements-sfx" data-audio-player-wave-color-value="#ffffff" data-audio-player-playing-value="false" data-audio-player-loaded-value="true">
+  <div class="audio-player__wave-wrapper" style="background-color: #80b638">
+    <div class="audio-player__wave" data-audio-player-target="wave" data-action="click-&gt;audio-player#userInteraction" style="background: transparent;"><wave style="display: block; position: relative; user-select: none; height: 100px; overflow: hidden;"><wave style="position: absolute; z-index: 3; left: 0px; top: 0px; bottom: 0px; overflow: hidden; width: 445px; display: block; box-sizing: border-box; border-right: 1px solid transparent; pointer-events: none;"><canvas width="890" height="200" style="position: absolute; left: 0px; top: 0px; bottom: 0px; height: 100%; width: 445px;"></canvas></wave><canvas width="890" height="200" style="position: absolute; z-index: 2; left: 0px; top: 0px; bottom: 0px; height: 100%; pointer-events: none; width: 445px;"></canvas></wave><audio preload="none" src="https://audio-previews.elements.envatousercontent.com/files/159307992/preview.mp3" style="width: 100%;"></audio></div>
+    <button class="audio-player__button" data-action="click-&gt;audio-player#handleTogglePlay">
+      <div class="audio-player__button-icon"></div>
+    </button>
+    <div class="audio-player__progress" data-audio-player-target="progress" style="left: 100%;"></div>
+  </div>
+</div>
+
+
+    <div class="item-grid-card__meta">
+      <h4 class="item-grid-card__title">
+          Bad Male Yummy Eating
+      </h4>
+                      <a title="Envato Elements" rel="sponsored noopener noreferrer" target="_blank" href="https://elements.envato.com/bad-male-yummy-eating-EZDG98X?utm_source=mixkit&amp;utm_medium=referral&amp;utm_campaign=elements_mixkit_cs_sfx_search_no_results" class="elements-audio-items__button" data-controller="elements--link" data-elements--link-campaign-value="elements_mixkit_cs_sfx_search_no_results" data-elements--link-uri-value="https://elements.envato.com/bad-male-yummy-eating-EZDG98X" data-action="click-&gt;elements--link#logClickEvent">
+  View on Envato Elements
+</a>
+
+
+    </div>
+</div>
+
+    </div>
+    <div class="item-grid-item">
+      
+            <div class="item-grid-card item-grid-card--show-meta">
+                  <div data-controller="audio-player" data-audio-player-waveform-url-value="https://waveform.customer.envato.com/tsunami/114584240/preview.mp3" data-audio-player-preview-url-value="https://audio-previews.elements.envatousercontent.com/files/114584240/preview.mp3" data-audio-player-id-value="9UAWSGF" data-audio-player-type-value="elements-sfx" data-audio-player-wave-color-value="#ffffff" data-audio-player-playing-value="false" data-audio-player-loaded-value="true">
+  <div class="audio-player__wave-wrapper" style="background-color: #80b638">
+    <div class="audio-player__wave" data-audio-player-target="wave" data-action="click-&gt;audio-player#userInteraction" style="background: transparent;"><wave style="display: block; position: relative; user-select: none; height: 100px; overflow: hidden;"><wave style="position: absolute; z-index: 3; left: 0px; top: 0px; bottom: 0px; overflow: hidden; width: 416.5px; display: block; box-sizing: border-box; border-right: 1px solid transparent; pointer-events: none;"><canvas width="890" height="200" style="position: absolute; left: 0px; top: 0px; bottom: 0px; height: 100%; width: 445px;"></canvas></wave><canvas width="890" height="200" style="position: absolute; z-index: 2; left: 0px; top: 0px; bottom: 0px; height: 100%; pointer-events: none; width: 445px;"></canvas></wave><audio preload="none" src="https://audio-previews.elements.envatousercontent.com/files/114584240/preview.mp3" style="width: 100%;"></audio></div>
+    <button class="audio-player__button" data-action="click-&gt;audio-player#handleTogglePlay">
+      <div class="audio-player__button-icon"></div>
+    </button>
+    <div class="audio-player__progress" data-audio-player-target="progress" style="left: 93.5%;"></div>
+  </div>
+</div>
+
+
+    <div class="item-grid-card__meta">
+      <h4 class="item-grid-card__title">
+          Male Group Yummy Voices
+      </h4>
+                      <a title="Envato Elements" rel="sponsored noopener noreferrer" target="_blank" href="https://elements.envato.com/male-group-yummy-voices-9UAWSGF?utm_source=mixkit&amp;utm_medium=referral&amp;utm_campaign=elements_mixkit_cs_sfx_search_no_results" class="elements-audio-items__button" data-controller="elements--link" data-elements--link-campaign-value="elements_mixkit_cs_sfx_search_no_results" data-elements--link-uri-value="https://elements.envato.com/male-group-yummy-voices-9UAWSGF" data-action="click-&gt;elements--link#logClickEvent">
+  View on Envato Elements
+</a>
+
+
+    </div>
+</div>
+
+    </div>
+</div>
+    </div>
+  </div>
+</div>
+
+
+
+<div data-modal-target="container" class="modal__overlay" data-controller="modal" data-action="click-&gt;modal#close">
+  <div class="modal__loading">
+    <svg class="modal__loading-spinner" width="65px" height="65px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+      <circle class="modal__loading-spinner-circle" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30">
+      </circle>
+    </svg>
+  </div>
+  <div data-modal-target="content" class="modal__content" tabindex="-1" aria-label="Modal" data-action="click-&gt;modal#stopClickPropagation">
+  </div>
+</div>
+
+<div class="global-footer" id="global-footer" data-turbo-permanent="">
+  <div class="global-footer__columns">
+    <div class="global-footer-link-column">
+  <input type="radio" name="global-footer-column__toggle-radio" class="global-footer-column__toggle-radio" id="global-footer-column--554cfab393">
+  <h4 class="global-footer-link-column__title-wrapper">
+    <a class="global-footer-link-column__title" href="https://mixkit.co/free-stock-video/">Videos</a>
+    <label for="global-footer-column--554cfab393" class="global-footer-link-column__toggle-button"></label>
+  </h4>
+  <div class="global-footer-link-column__links">
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-stock-video/nature/">Nature</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-stock-video/lifestyle/">Lifestyle</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-stock-video/business/">Business</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-stock-video/animal/">Animals</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-stock-video/food/">Food</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-stock-video/zoom-virtual-background/">Zoom Backgrounds</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-vertical-videos/">Vertical</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-video-backgrounds/">Backgrounds</a>
+  </div>
+</div>
+
+    <div class="global-footer-link-column">
+  <input type="radio" name="global-footer-column__toggle-radio" class="global-footer-column__toggle-radio" id="global-footer-column--47dcbd834e">
+  <h4 class="global-footer-link-column__title-wrapper">
+    <a class="global-footer-link-column__title" href="https://mixkit.co/free-stock-music/">Music</a>
+    <label for="global-footer-column--47dcbd834e" class="global-footer-link-column__toggle-button"></label>
+  </h4>
+  <div class="global-footer-link-column__links">
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-stock-music/ambient/">Ambient</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-stock-music/cinematic/">Cinematic</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-stock-music/corporate/">Corporate</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-stock-music/drum-and-bass/">Drum &amp; Bass</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-stock-music/experimental/">Experimental</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-stock-music/funk/">Funk</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-stock-music/hip-hop/">Hip-Hop</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-stock-music/jazz/">Jazz</a>
+  </div>
+</div>
+
+    <div class="global-footer-link-column">
+  <input type="radio" name="global-footer-column__toggle-radio" class="global-footer-column__toggle-radio" id="global-footer-column--241b98a5c9">
+  <h4 class="global-footer-link-column__title-wrapper">
+    <a class="global-footer-link-column__title" href="https://mixkit.co/free-sound-effects/">Sound Effects</a>
+    <label for="global-footer-column--241b98a5c9" class="global-footer-link-column__toggle-button"></label>
+  </h4>
+  <div class="global-footer-link-column__links">
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-sound-effects/animals/">Animals</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-sound-effects/game/">Game</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-sound-effects/human/">Human</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-sound-effects/instrument/">Instrument</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-sound-effects/lifestyle/">Lifestyle</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-sound-effects/nature/">Nature</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-sound-effects/technology/">Technology</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-sound-effects/transition/">Transition</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-sound-effects/warfare/">Warfare</a>
+  </div>
+</div>
+
+    <div class="global-footer-link-column">
+  <input type="radio" name="global-footer-column__toggle-radio" class="global-footer-column__toggle-radio" id="global-footer-column--a48d9345de">
+  <h4 class="global-footer-link-column__title-wrapper">
+    <a class="global-footer-link-column__title" href="https://mixkit.co/free-premiere-pro-templates/">Premiere Pro</a>
+    <label for="global-footer-column--a48d9345de" class="global-footer-link-column__toggle-button"></label>
+  </h4>
+  <div class="global-footer-link-column__links">
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-premiere-pro-templates/call-outs/">Call-outs</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-premiere-pro-templates/instagram/">Instagram</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-premiere-pro-templates/logo/">Logo</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-premiere-pro-templates/lower-thirds/">Lower-thirds</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-premiere-pro-templates/openers/">Opener</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-premiere-pro-templates/slideshow/">Slideshows</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-premiere-pro-templates/titles/">Titles</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-premiere-pro-templates/transitions/">Transitions</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-premiere-pro-templates/youtube/">YouTube</a>
+  </div>
+</div>
+
+    <div class="global-footer-link-column">
+  <input type="radio" name="global-footer-column__toggle-radio" class="global-footer-column__toggle-radio" id="global-footer-column--569248c23e">
+  <h4 class="global-footer-link-column__title-wrapper">
+    <a class="global-footer-link-column__title" href="https://mixkit.co/free-after-effects-templates/">After Effects</a>
+    <label for="global-footer-column--569248c23e" class="global-footer-link-column__toggle-button"></label>
+  </h4>
+  <div class="global-footer-link-column__links">
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-after-effects-templates/audio-visualizer/">Audio visualizer</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-after-effects-templates/call-outs/">Call-outs</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-after-effects-templates/instagram/">Instagram</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-after-effects-templates/lower-thirds/">Lower-thirds</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-after-effects-templates/openers/">Opener</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-after-effects-templates/slideshow/">Slideshows</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-after-effects-templates/title/">Titles</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-after-effects-templates/transitions/">Transitions</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-after-effects-templates/youtube/">YouTube</a>
+  </div>
+</div>
+
+    <div class="global-footer-link-column">
+  <input type="radio" name="global-footer-column__toggle-radio" class="global-footer-column__toggle-radio" id="global-footer-column--0960dfde26">
+  <h4 class="global-footer-link-column__title-wrapper">
+    <a class="global-footer-link-column__title" href="https://mixkit.co/free-final-cut-pro-templates/">Final Cut Pro</a>
+    <label for="global-footer-column--0960dfde26" class="global-footer-link-column__toggle-button"></label>
+  </h4>
+  <div class="global-footer-link-column__links">
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-final-cut-pro-templates/instagram/">Instagram</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-final-cut-pro-templates/logo/">Logo</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-final-cut-pro-templates/lower-thirds/">Lower-thirds</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-final-cut-pro-templates/openers/">Opener</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-final-cut-pro-templates/promotion/">Promotion</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-final-cut-pro-templates/slideshow/">Slideshows</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-final-cut-pro-templates/title/">Titles</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-final-cut-pro-templates/transitions/">Transitions</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-final-cut-pro-templates/youtube/">YouTube</a>
+  </div>
+</div>
+
+    <div class="global-footer-link-column">
+  <input type="radio" name="global-footer-column__toggle-radio" class="global-footer-column__toggle-radio" id="global-footer-column--0f4324d6a7">
+  <h4 class="global-footer-link-column__title-wrapper">
+    <a class="global-footer-link-column__title" href="https://mixkit.co/free-davinci-resolve-templates/">DaVinci Resolve</a>
+    <label for="global-footer-column--0f4324d6a7" class="global-footer-link-column__toggle-button"></label>
+  </h4>
+  <div class="global-footer-link-column__links">
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-davinci-resolve-templates/call-outs/">Call-outs</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-davinci-resolve-templates/instagram/">Instagram</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-davinci-resolve-templates/lower-thirds/">Lower-thirds</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-davinci-resolve-templates/titles/">Titles</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-davinci-resolve-templates/youtube/">YouTube</a>
+  </div>
+</div>
+
+    <div class="global-footer-link-column">
+  <input type="radio" name="global-footer-column__toggle-radio" class="global-footer-column__toggle-radio" id="global-footer-column--1ae2341190">
+  <h4 class="global-footer-link-column__title-wrapper">
+    <a class="global-footer-link-column__title" href="https://mixkit.co/">Mixkit</a>
+    <label for="global-footer-column--1ae2341190" class="global-footer-link-column__toggle-button"></label>
+  </h4>
+  <div class="global-footer-link-column__links">
+      <a class="global-footer-link-column__link" href="https://mixkit.co/license/">License</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/terms/">Terms</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/sitemap/">Sitemap</a>
+      <a class="global-footer-link-column__link" href="https://envato.com/privacy/">Privacy</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/contribute/">Contribute</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/blog/">Blog</a>
+      <a class="global-footer-link-column__link" href="https://mixkit.co/free-stock-art/">Art</a>
+  </div>
+</div>
+
+  </div>
+  <div class="global-footer__copyright">
+    <div class="global-footer__column-logo">
+      <a href="https://mixkit.co/">
+        <img class="global-footer__logo" alt="Mixkit" title="Mixkit" src="./energy_files/mixkit-logo--black-a90b84b6ac6ad0fbd410b16466b4cb252d399b5caaf03603f36c52ffc648455c.svg" width="152" height="35">
+      </a>
+    </div>
+    <div class="global-footer__content">
+      <p class="global-footer__notice">Copyright © 2021. All rights reserved - Made by
+        <a title="Envato Elements" rel="sponsored noopener noreferrer" target="_blank" href="https://elements.envato.com/?utm_source=mixkit&amp;utm_medium=referral&amp;utm_campaign=elements_mixkit_footer" class="global-footer__notice-link" data-controller="elements--link" data-elements--link-campaign-value="elements_mixkit_footer" data-elements--link-uri-value="/" data-action="click-&gt;elements--link#logClickEvent">
+  Envato Elements
+</a>
+
+      </p>
+    </div>
+    <div class="global-footer__social">
+      <a class="global-footer__social-link" title="Mixkit on Instagram" target="_blank" rel="noopener noreferrer" href="https://instagram.com/mixkit_co">
+        <svg class="global-footer__social-icon" aria-label="Instagram" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M9.00084 0C6.55657 0 6.24981 0.0106875 5.2898 0.054375C4.33167 0.09825 3.67766 0.249937 3.10541 0.4725C2.51346 0.702375 2.01133 1.00988 1.51108 1.51031C1.01045 2.01056 0.702945 2.51269 0.472317 3.10444C0.24919 3.67688 0.0973135 4.33106 0.0541881 5.28881C0.0112501 6.24881 0 6.55575 0 9C0 11.4443 0.0108751 11.7501 0.0543756 12.7101C0.0984385 13.6682 0.250128 14.3222 0.472505 14.8944C0.70257 15.4864 1.01007 15.9885 1.51052 16.4888C2.01058 16.9894 2.51271 17.2976 3.10428 17.5275C3.67691 17.7501 4.33111 17.9018 5.28905 17.9456C6.24906 17.9893 6.55563 18 8.99972 18C11.4442 18 11.75 17.9893 12.71 17.9456C13.6681 17.9018 14.3229 17.7501 14.8955 17.5275C15.4873 17.2976 15.9887 16.9894 16.4887 16.4888C16.9894 15.9885 17.2969 15.4864 17.5275 14.8946C17.7487 14.3222 17.9006 13.668 17.9456 12.7102C17.9888 11.7502 18 11.4443 18 9C18 6.55575 17.9888 6.249 17.9456 5.289C17.9006 4.33087 17.7487 3.67688 17.5275 3.10463C17.2969 2.51269 16.9894 2.01056 16.4887 1.51031C15.9881 1.00969 15.4875 0.702188 14.895 0.4725C14.3212 0.249937 13.6668 0.09825 12.7087 0.054375C11.7487 0.0106875 11.4431 0 8.99803 0H9.00084ZM8.70104 1.62188H8.70099H8.70094C8.51898 1.6218 8.35036 1.62172 8.19362 1.62197V1.61972C6.51623 1.62159 6.19448 1.63284 5.36422 1.67034C4.48671 1.71065 4.01027 1.8569 3.69301 1.98065C3.27301 2.14415 2.973 2.33915 2.658 2.65415C2.343 2.96915 2.14762 3.26915 1.98449 3.68915C1.86131 4.0064 1.71468 4.48265 1.67455 5.36015C1.63143 6.3089 1.6228 6.5924 1.6228 8.99578C1.6228 11.3992 1.63143 11.6842 1.67455 12.6329C1.71449 13.5104 1.86131 13.9867 1.98449 14.3035C2.148 14.7237 2.343 15.023 2.658 15.338C2.973 15.653 3.27301 15.848 3.69301 16.0111C4.01045 16.1343 4.48671 16.2809 5.36422 16.3214C6.31298 16.3645 6.59779 16.3739 9.00101 16.3739C11.404 16.3739 11.689 16.3645 12.6378 16.3214C13.5153 16.2813 13.9919 16.135 14.3088 16.0113C14.729 15.8482 15.0281 15.6532 15.3431 15.3382C15.6581 15.0233 15.8535 14.7243 16.0166 14.3043C16.1398 13.9874 16.2864 13.5112 16.3265 12.6337C16.3696 11.6849 16.379 11.3999 16.379 8.99803C16.379 6.59615 16.3696 6.31115 16.3265 5.3624C16.2866 4.4849 16.1398 4.00865 16.0166 3.69178C15.8531 3.27178 15.6581 2.97178 15.3431 2.65678C15.0283 2.34178 14.7288 2.14678 14.3088 1.98365C13.9916 1.86047 13.5153 1.71384 12.6378 1.67372C11.6888 1.63059 11.404 1.62197 9.00101 1.62197L8.70104 1.62188ZM12.7251 4.19601C12.7251 3.59958 13.2089 3.11639 13.8051 3.11639V3.11601C14.4014 3.11601 14.8851 3.59976 14.8851 4.19601C14.8851 4.79226 14.4014 5.27601 13.8051 5.27601C13.2089 5.27601 12.7251 4.79226 12.7251 4.19601ZM9.00064 4.37822C6.44826 4.37832 4.37891 6.44772 4.37891 9.0001C4.37891 11.5525 6.44837 13.621 9.00083 13.621C11.5533 13.621 13.622 11.5525 13.622 9.0001C13.622 6.44766 11.5531 4.37822 9.00064 4.37822ZM9.00089 6.00007C10.6577 6.00007 12.0009 7.34313 12.0009 9.00007C12.0009 10.6568 10.6577 12.0001 9.00089 12.0001C7.34393 12.0001 6.00085 10.6568 6.00085 9.00007C6.00085 7.34313 7.34393 6.00007 9.00089 6.00007Z" fill="#2A2A2A"></path>
+        </svg>
+      </a>
+      <a class="global-footer__social-link" title="Mixkit on YouTube" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCtmuFBbkECnsHJujGDcE9SA">
+        <svg class="global-footer__social-icon" aria-label="YouTube" width="26" height="19" viewBox="0 0 26 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M23.0544 0.543911C24.135 0.843194 24.9859 1.72503 25.2747 2.84488C25.7995 4.87448 25.7995 9.10925 25.7995 9.10925C25.7995 9.10925 25.7995 13.3439 25.2747 15.3736C24.9859 16.4935 24.135 17.3753 23.0544 17.6747C21.0963 18.2185 13.2435 18.2185 13.2435 18.2185C13.2435 18.2185 5.39072 18.2185 3.43241 17.6747C2.35188 17.3753 1.50093 16.4935 1.21214 15.3736C0.6875 13.3439 0.6875 9.10925 0.6875 9.10925C0.6875 9.10925 0.6875 4.87448 1.21214 2.84488C1.50093 1.72503 2.35188 0.843194 3.43241 0.543911C5.39072 0 13.2435 0 13.2435 0C13.2435 0 21.0963 0 23.0544 0.543911ZM11.0276 5.41643V13.2947L17.4287 9.35572L11.0276 5.41643Z" fill="#2A2A2A"></path>
+        </svg>
+      </a>
+      <a class="global-footer__social-link" title="Mixkit on Twitter" target="_blank" rel="noopener noreferrer" href="https://twitter.com/mixkit_co">
+        <svg class="global-footer__social-icon" aria-label="Twitter" width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M17.7302 3.93749C17.7302 4.16249 17.7302 4.27499 17.7302 4.49999C17.7302 9.78748 13.5855 15.75 6.2171 15.75C3.91447 15.75 1.8421 15.075 -3.51353e-06 13.95C0.345391 13.95 0.690788 13.95 0.921051 13.95C2.87828 13.95 4.60525 13.275 5.98682 12.2625C4.25985 12.2625 2.76316 11.1375 2.1875 9.44998C2.41777 9.44998 2.64803 9.56248 2.99342 9.56248C3.33881 9.56248 3.6842 9.56248 4.02959 9.44998C2.18749 9.11248 0.805913 7.42499 0.805913 5.51249C1.38157 5.84999 1.95723 5.96249 2.64802 5.96249C1.61184 5.28749 0.805913 4.04999 0.805913 2.7C0.805913 2.025 1.03618 1.2375 1.38157 0.674999C3.3388 3.03749 6.33222 4.61249 9.78616 4.83749C9.67103 4.49999 9.67104 4.27499 9.67104 3.93749C9.67104 1.8 11.5131 2.6822e-08 13.7006 2.6822e-08C14.852 2.6822e-08 15.8881 0.449999 16.694 1.2375C17.6151 1.0125 18.5361 0.674999 19.2269 0.225C18.8815 1.125 18.3059 1.9125 17.3848 2.475C18.1908 2.3625 18.9967 2.1375 19.6875 1.8C19.2269 2.7 18.5362 3.37499 17.7302 3.93749Z" fill="#2A2A2A"></path>
+        </svg>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="elements-toast-banner__wrapper" data-controller="elements--toast-banner" data-elements--toast-banner-visible-value="false">
+  <a title="Envato Elements" rel="sponsored noopener noreferrer" target="_blank" href="https://elements.envato.com/?utm_source=mixkit&amp;utm_medium=referral&amp;utm_campaign=elements_mixkit_cs_global_promo" class="elements-toast-banner__copy" data-controller="elements--link" data-elements--link-campaign-value="elements_mixkit_cs_global_promo" data-elements--link-uri-value="/" data-action="click-&gt;elements--link#logClickEvent">
+  
+      <img class="elements-toast-banner__logo" alt="Envato Elements" width="205" height="22" src="./energy_files/elements-logo--white-7c8fe4b620642471f7868e4df4854ff6f516e598655ce27cf16a6e4fe585b63a.svg">
+    <span class="elements-toast-banner__copy-large">Millions of creative assets</span>
+    <span class="elements-toast-banner__copy-small">Unlimited downloads. One low cost.</span>
+
+</a>
+
+  <a title="Envato Elements" rel="sponsored noopener noreferrer" target="_blank" href="https://elements.envato.com/?utm_source=mixkit&amp;utm_medium=referral&amp;utm_campaign=elements_mixkit_cs_global_promo" class="elements-toast-banner__button" data-controller="elements--link" data-elements--link-campaign-value="elements_mixkit_cs_global_promo" data-elements--link-uri-value="/" data-action="click-&gt;elements--link#logClickEvent">
+  Get Unlimited Downloads
+</a>
+
+
+  <button type="button" name="clear" class="elements-toast-banner__close-button" data-action="click-&gt;elements--toast-banner#dismiss" aria-label="Close">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 25 26">
+      <path d="M16.675 0H18.921V23.582H16.675z" transform="rotate(45 16.675 0)"></path>
+      <path d="M0 1.588H2.246V25.17H0z" transform="rotate(-45 0 1.588)"></path>
+    </svg>
+  </button>
+</div>
+
+<div id="global-browser-support" data-nosnippet="" style="display: none;">
+  Our site is great except that we don‘t support your browser. We recommend using the latest version of
+  <a href="https://www.google.com/chrome/" rel="nofollow">Google Chrome</a>,
+  <a href="https://www.mozilla.org/en-US/firefox/new/" rel="nofollow">Mozilla Firefox</a>,
+  <a href="https://www.microsoft.com/en-us/edge" rel="nofollow">Microsoft Edge</a>, or
+  <a href="https://support.apple.com/en_AU/downloads/safari" rel="nofollow">Apple Safari</a>.
+</div>
+<script>
+  var browserSupportsAbortController = typeof AbortController !== "undefined"
+  var browserSupportsCss = !!((window.CSS && window.CSS.supports) || window.supportsCSS || false);
+  var browserSupportsCustomElements = !!(window.customElements);
+  var isIE = navigator.userAgent.indexOf("MSIE ") > -1 || navigator.userAgent.indexOf("Trident/") > -1;
+  if (browserSupportsAbortController && browserSupportsCss && browserSupportsCustomElements && !isIE) {
+    document.getElementById('global-browser-support').style.display = 'none';
+  }
+</script>
+
+
+
+</body></html>
